@@ -1,0 +1,208 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  grid-area: header;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: aqua;
+  grid-area: nav;
+}
+
+li a {
+  text-decoration: none;
+}
+
+main {
+  grid-area: main;
+}
+
+#banner {
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#servicios {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2 .subtitulo {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+
+div .tazapadre {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+a .Masinformacion {
+  margin: 20px;
+  padding: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+h3 .Tazas1 p {
+  display: flex;
+  justify-content: start;
+}
+
+.prolija-table {
+  width: 90%;
+  margin: 50px;
+  padding: 50px;
+  border-collapse: collapse;
+}
+
+.pro {
+  display: flex;
+  justify-content: center;
+}
+
+.prolija-table th,
+.prolija-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+  background-color: #337ab7;
+}
+
+.prolija-table th {
+  background-color: salmon;
+  font-weight: bold;
+}
+
+.prolija-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.prolija-table tbody td:first-child {
+  font-weight: bold;
+}
+
+.prolija-table tbody td:last-child {
+  text-align: right;
+}
+
+.quienes-somos {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.quienes-somos h1 {
+  color: #0c818a;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.quienes-somos p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.quienes-somos button {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.quienes-somos button:hover {
+  background-color: #286090;
+}
+
+.faq-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  text-align: center;
+}
+
+.preguntas-frecuentes {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.faq-item {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.pregunta {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pregunta::after {
+  margin-left: 5px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.t {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+#final {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  font-family: "Play", sans-serif;
+  grid-area: final;
+}
+
+div .info {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+div .seg {
+  display: flex;
+  flex-direction: column;
+}
+
+div .sub {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    height: auto;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
